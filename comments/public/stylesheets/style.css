@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Ostrich;
+    src: url(./ostrich-sans.sans-medium.ttf);
+}
+
+body {
+  padding: 50px;
+  font-family: Ostrich; font-size: 24px;
+  font-style: normal; font-variant: normal;
+  font-weight: 600; line-height: 35px; color:white;
+  background-color: #7DCFB6;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h {
+   font-family: Ostrich; font-size: 56px;
+  font-style: normal; font-variant: normal;
+  font-weight: 300; line-height: 30px; color:white;
+}
+
+.top-panel {
+  text-align: center;
+  background-color: #FC9F5B;
+  padding: 50px;
+  
+}

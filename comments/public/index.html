@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Comments!</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="javascripts/comments.js"></script>
+<link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+<div class="top-panel">  
+<h>Post A Comment</h> 
+</div> 
+<form id="commentForm" action="">
+<label for="name">Name: </label><input type="text" id="name" placeholder="Name"><br>
+<label for="comment">comment: </label><input type="text" id="comment" placeholder="Comment"><br>
+</form>
+
+<button id="postComment">Post Comment</button>
+<button id="getComments">Get Comments</button>
+<button id="deleteComments">Delete All</button>
+<form id="queryForm" action="">
+<label for="query">Name for query: </label><input type="text" id="query" placeholder="Query"><br>
+</form>
+<div id="json"></div>
+<div id="done"></div>
+<div id="comments"></div>
+</body>
+</html>
+
